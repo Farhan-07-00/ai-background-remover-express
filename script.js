@@ -69,11 +69,11 @@ startBtn.addEventListener("click", () => {
     startBtn.classList.add("processing");
     startBtn.disabled = true;
     
-    fetch("https://ai-background-remover-express.onrender.com/", {
+    fetch("https://ai-background-remover-express.onrender.com/remove-bg", {
         method: "POST",
         body: formData,
     })
-.then((res)=>{
+    .then((res)=>{
 
     if(!res.ok){
         throw new Error("Failed to remove background");
