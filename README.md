@@ -51,9 +51,8 @@ The project demonstrates practical knowledge of **Frontend Development, Backend 
 ## 🖼️ Project Preview
 
 <p align="center">
-  <img src="![Uploading image.png…]"()
-" />
-"/>
+  <img src=<img width="965" height="762" alt="image" src="https://github.com/user-attachments/assets/9b0e894d-9548-4797-9f98-9fa2b0e714b8" />
+/>
 </p>
 
 > Replace the screenshot above with your actual project screenshot.
