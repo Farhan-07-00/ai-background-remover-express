@@ -69,10 +69,10 @@ startBtn.addEventListener("click", () => {
     startBtn.classList.add("processing");
     startBtn.disabled = true;
     
-fetch("http://localhost:3000/remove-bg",{
-    method:"POST",
-    body:formData,
-})
+    fetch("https://ai-background-remover-express.onrender.com/", {
+        method: "POST",
+        body: formData,
+    })
 .then((res)=>{
 
     if(!res.ok){
