@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Background Remover</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="bg-blur"></div>
+
+    <div class="container">
+
+        <h1>AI Background Remover</h1>
+
+        <p class="subtitle">
+            Remove image backgrounds instantly with AI-powered processing
+        </p>
+
+        <div class="badges">
+           <span>🤖 AI Powered</span>
+           <span>⚡ Fast Processing</span>
+            <span>🖼️ PNG Export</span>
+        </div>
+
+        <!-- Upload Card -->
+ <!-- Upload Card -->
+<div class="card" id="addCard">
+
+    <div id="dropZone">
+
+        <div class="upload-icon">☁️</div>
+
+        <button>
+            <input type="file" id="fileInput" />
+            Upload Image
+        </button>
+
+        <p>
+            Drag & Drop or Click to Upload
+        </p>
+
+    </div>
+
+</div>
+        <!-- Preview Card -->
+        <div class="card" id="displayCard">  
+
+            <div class="image-cont">
+                <img id="display-img" src="" alt="">
+            </div>
+
+            <button id="startBtn">
+                Remove Background
+            </button>
+
+        </div>
+
+        <!-- Result Card -->
+<div class="card" id="downloadCard">
+
+
+
+    <div class="compare-headings">
+        <span>Original</span>
+        <span>Background Removed</span>
+    </div>
+
+    <div class="image-cont">
+
+        <img class="image-before" src="" alt="">
+        <img class="image-after" src="" alt="">
+
+    </div>
+
+<a id="downloadHref" download="transparentImage">
+    <button>
+        Download PNG
+    </button>
+</a>
+
+</div>
+
+
+<footer>
+    Developed by Farhan Akthar
+</footer>
+
+</div> <!-- container ends here -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
